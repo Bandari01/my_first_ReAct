@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+
+# Virtual Environment
+.venv/
+
+# Project specific
+.env
+logs/
+data/
+knowledge_base/
+
+# API Keys
+kaggle.json
+
+# Competition data
+*.csv

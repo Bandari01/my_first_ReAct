@@ -1,0 +1,32 @@
+# Core Libraries
+numpy
+pandas
+
+# OpenAI Integration
+openai
+
+# Web Interface
+streamlit
+
+# Data Processing
+python-dotenv
+pathlib
+
+# Time Series Analysis
+statsmodels
+
+# Machine Learning
+xgboost
+lightgbm、
+scikit-learn
+
+# Utilities
+tqdm
+plotly
+kaggle
+loguru
+
+# Testing and Development
+pytest
+black
+flake8
