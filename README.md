@@ -66,6 +66,7 @@ ai-agent-analytics/
 
 * **Docker Desktop**: Ensure Docker is installed and running.
 * **Kaggle API Key**: You need `kaggle.json` to get your username and key.
+* **OpenAI API Key**: Required for LLM-based agents.
 
 ### 2) Configure Environment
 
@@ -125,7 +126,9 @@ Once the container is running, open your browser and navigate to:
 ## ❓ FAQ
 
 **Q1: What manual setup is required?**
+
 A: You must create a `.env` file and populate it with your personal credentials (Kaggle API keys, OpenAI API key). This step cannot be automated and must be completed before running the application.
 
 **Q2: Why are Live Logs not showing for RAG and DLP Agents?**
+
 A: These agents do not generate real-time execution logs in the same way as other agents. The process is running in the background and may take some time (approximately 1 minute) to generate results. Please be patient while the system processes your request.
